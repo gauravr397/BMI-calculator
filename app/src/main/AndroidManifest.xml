@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMIcalc">
         <activity
+            android:name=".BMIActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
