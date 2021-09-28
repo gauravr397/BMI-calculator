@@ -305,9 +305,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonbackground"
         android:text="Calculate Your BMI"
         android:textColor="@color/white"
-        android:background="@drawable/buttonbackground"
         android:textSize="15sp"
         android:textStyle="bold">
 
