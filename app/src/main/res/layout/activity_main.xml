@@ -290,7 +290,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
-            android:progressTint="#FF4C4C">
+            android:progressTint="#FF4C4C"
+            android:thumbTint="@color/white">
 
         </SeekBar>
 
