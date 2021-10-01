@@ -18,13 +18,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="BMI CALCULATOR"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/white"
         android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:lineSpacingExtra="2dp">
+        android:lineSpacingExtra="2dp"
+        android:text="BMI CALCULATOR"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="40dp"
+        android:text=":- Gaurav raghav"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="13sp">
     </TextView>
 </RelativeLayout>
